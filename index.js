@@ -28,7 +28,6 @@ app.put('/test', (req, res) => {
 app.delete('/test', (req, res) => {
   res.json({ message: 'DELETE request successful!' });
 });
-
 // Simple PATCH
 app.patch('/test', (req, res) => {
   res.json({ message: 'PATCH request successful!', body: req.body });

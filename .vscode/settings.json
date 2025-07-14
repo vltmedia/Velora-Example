@@ -3,5 +3,6 @@
 		"activityBar.background": "#013605",
 		"titleBar.activeBackground": "#014C08",
 		"titleBar.activeForeground": "#ECFFEE"
-	}
+	},
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}${separator}[Branch: main]"
 }
